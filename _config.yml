@@ -1,10 +1,10 @@
 name: Kayyomm - The Room of Sins
 title: Kayyomm - The Room of Sins
-email: jeff@kubonyc.com
+email: carlos@casagrandestudio.com
 description: > # this means to ignore newlines until "baseurl:"
-  Description here
+  The Room of Sins by Kayyomm
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.jeffreyherrera.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://www.kayyomm.com" # the base hostname & protocol for your site, e.g. http://example.com
 seo-image:
 
 twitter_username: jekyllrb
