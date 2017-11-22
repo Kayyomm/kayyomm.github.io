@@ -1,0 +1,42 @@
+// Tools
+@import Tools/reset
+@import Tools/syntax
+@import Tools/Variables
+@import Tools/production-mixins
+@import Tools/grid
+@import Tools/forms
+
+// Base Styles
+@import Base/links
+@import Base/typograpy
+@import Base/selection
+@import Base/navigation
+
+// Views
+@import Views/header
+@import Views/layout
+@import Views/player
+@import Views/footer
+
+html, body
+	height: 100%
+
+body
+	background-image: linear-gradient(to bottom, rgba(74, 5, 5, 0.4) 0%, rgba(30, 32, 11, 1) 22%, rgba(4, 54, 46, 0.4) 54%, rgba(1, 33, 32, 0.4) 82%, rgba(39, 36, 30, 0.4) 100%)
+	background-color: $c-bg
+	background-repeat: no-repeat
+	background-attachment: fixed
+
+.site
+	display: flex
+	flex-direction: column
+	height: 100%
+	width: 100%
+	margin: 0
+
+	&__header,
+	&__footer
+		flex: 0 0 auto
+
+	&__body
+		flex: 1 1 auto

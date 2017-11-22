@@ -1,0 +1,34 @@
+.site__header
+	padding-top: $spacing
+	display: flex
+	justify-content: center
+	align-items: center
+	flex-direction: column
+
+	+media-query($s)
+		padding: $spacing / 2
+
+
+	span
+		font-size: 0.6em
+		text-transform: uppercase
+		letter-spacing: 0.1em
+
+	&--title
+		margin: 0
+		margin-left: 20px
+		text-transform: uppercase
+		letter-spacing: 0.1em
+		color: white
+
+		span
+			font-weight: 100
+			margin-left: 5px
+			font-style: italic
+			font-size: 1em
+
+			+media-query($s)
+				font-size: 1em
+				margin-left: 5px
+
+		+fluid-type(16px, 23.04px)
